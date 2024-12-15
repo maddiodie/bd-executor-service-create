@@ -28,4 +28,5 @@ public class NotificationManagerTest {
         verify(notificationTask1, times(1)).run();
         verify(notificationTask2, times(1)).run();
     }
+    
 }

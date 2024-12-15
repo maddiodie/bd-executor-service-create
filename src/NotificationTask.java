@@ -21,4 +21,5 @@ public class NotificationTask implements Runnable {
     public void run() {
         System.out.println(distributionConfiguration + " notification sent out: " + notificationMessage);
     }
+
 }
